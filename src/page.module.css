@@ -79,7 +79,7 @@
 
 .section::after {
   top: -30%;
-  right: -50%;
+  right: -40%;
   background-image: url("./images/blob-2.svg");
 }
 
