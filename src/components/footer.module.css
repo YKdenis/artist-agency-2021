@@ -1,0 +1,71 @@
+p {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  padding: 2rem 0;
+  color: #e0e0e0;
+}
+
+.wrapper > div:first-child {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.wrapper > div:last-child {
+  margin-left: 1rem;
+}
+
+.title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  margin-right: auto;
+}
+
+.title::after {
+  content: ".";
+  position: absolute;
+  right: -5px;
+  bottom: 3px;
+  font-size: 1.8rem;
+  font-family: serif;
+  color: #37ba83;
+  margin-right: auto;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.instagram,
+.facebook {
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  margin-left: 1rem;
+  transition: transform 0.3 ease;
+}
+
+.instagram:hover,
+.facebook:hover {
+  transform: scale(1.1);
+}
+
+.instagram {
+  background-image: url("../images/instagram.svg");
+}
+
+.facebook {
+  background-image: url("../images/facebook.svg");
+}

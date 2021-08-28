@@ -1,6 +1,6 @@
 .container {
   width: 90%;
-  max-width: 1440px;
+  max-width: 1080px;
   margin: auto;
   font-family: sans-serif;
 }
@@ -27,6 +27,11 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav-link-text:hover {
+  color: #37ba83;
 }
 
 .site-title {
@@ -42,25 +47,26 @@
 }
 
 .site-title::after {
-  content:'.';
+  content: ".";
   position: absolute;
   right: -5px;
   bottom: 35px;
   font-size: 2rem;
   font-family: serif;
-  color: #37BA83;
+  color: #37ba83;
   margin-right: auto;
 }
 
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em sans-serif, georgia, serif ;
+  font: 112.5%/1.45em sans-serif, georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
   background-color: #000;
 }
 body {
+  overflow: hidden;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -1,0 +1,44 @@
+.wrapper {
+  display: block;
+  position: relative;
+  width: 24vw;
+  height: 24vw;
+  max-width: 350px;
+  max-height: 350px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.artist-info {
+  display: block;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.wrapper:hover .artist-info {
+  bottom: 0;
+  opacity: 1;
+}
+
+.artist-name {
+  margin: 0;
+  color: #37ba83;
+}
+
+.full-name {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
