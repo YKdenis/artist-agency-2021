@@ -35,7 +35,7 @@ const ArtistsPage = ({
         />
         <div className={artists}>
           {artistsInfo.map(({ node: artist }) => (
-            <Artist artist={artist} />
+            <Artist key={artist.id} artist={artist} />
           ))}
         </div>
       </div>

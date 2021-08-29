@@ -48,7 +48,7 @@ const IndexPage = ({
         <p>{homePage.featuredArtists.description}</p>
         <div className={artists}>
           {homePage.featuredArtists.artists.map(artist => (
-            <Artist artist={artist} />
+            <Artist key={artist.id} artist={artist} />
           ))}
         </div>
       </div>
