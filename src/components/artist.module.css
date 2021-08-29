@@ -5,6 +5,8 @@
   height: 28vw;
   max-width: 350px;
   max-height: 350px;
+  margin: auto;
+  margin-top: 10px;
   overflow: hidden;
 }
 
