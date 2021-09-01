@@ -48,7 +48,11 @@ const IndexPage = ({
         <p>{homePage.featuredArtists.description}</p>
         <div className={artists}>
           {homePage.featuredArtists.artists.map(artist => (
-            <Artist key={artist.id} artist={artist} />
+            <Artist
+              slug={`artists/${artist.slug}`}
+              key={artist.id}
+              artist={artist}
+            />
           ))}
         </div>
       </div>
