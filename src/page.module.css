@@ -184,3 +184,18 @@
   max-width: 350px;
   max-height: 500px;
 }
+
+.mission-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.mission-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  max-width: 500px;
+  margin-left: 30px;
+}
