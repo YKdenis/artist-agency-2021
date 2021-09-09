@@ -199,3 +199,45 @@
   max-width: 500px;
   margin-left: 30px;
 }
+
+.company-info {
+  margin-top: 60px;
+}
+
+.company-info p,
+.link {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: #37ba83;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.instagram,
+.facebook {
+  background-size: 30px 30px;
+  height: 30px;
+  width: 30px;
+  margin-left: 1rem;
+  transition: transform 0.3 ease;
+}
+
+.instagram:hover,
+.facebook:hover {
+  transform: scale(1.1);
+}
+
+.instagram {
+  background-image: url("./images/instagram.svg");
+}
+
+.facebook {
+  background-image: url("./images/facebook.svg");
+}
