@@ -20,6 +20,7 @@ module.exports = {
         url: "http://denisinghelbrecht.gpro.apstudent.be/cms-development/graphql",
         schema: {
           timeout: 40000,
+          requestConcurrency: 5,
         },
         verbose: true,
       },
