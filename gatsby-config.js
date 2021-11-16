@@ -18,9 +18,13 @@ module.exports = {
          * Voorbeeld : "https://www.example-site.com/graphql"
          */
         url: "http://denisinghelbrecht.gpro.apstudent.be/cms-development/graphql",
-        protocol: `http`,
         schema: {
           timeout: 40000,
+        },
+        type: {
+          Post: {
+            limit: 50,
+          },
         },
       },
     },
