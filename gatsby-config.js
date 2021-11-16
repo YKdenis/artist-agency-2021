@@ -21,11 +21,7 @@ module.exports = {
         schema: {
           timeout: 40000,
         },
-        type: {
-          Post: {
-            limit: 50,
-          },
-        },
+        verbose: true,
       },
     },
   ],
