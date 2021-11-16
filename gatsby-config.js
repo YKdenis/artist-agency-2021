@@ -18,6 +18,9 @@ module.exports = {
          * Voorbeeld : "https://www.example-site.com/graphql"
          */
         url: "http://denisinghelbrecht.gpro.apstudent.be/cms-development/graphql",
+        schema: {
+          timeout: 3000000,
+        },
       },
     },
   ],
