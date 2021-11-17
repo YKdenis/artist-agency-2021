@@ -17,7 +17,7 @@ module.exports = {
          * De volledige URL van je Headless WordPress site's GraphQL API.
          * Voorbeeld : "https://www.example-site.com/graphql"
          */
-        url: "http://denisinghelbrecht.gpro.apstudent.be/cms-development/graphql",
+        url: "https://artist-agency.codobi.be/graphql",
         schema: {
           timeout: 40000,
           requestConcurrency: 5,
